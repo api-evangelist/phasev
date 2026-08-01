@@ -1,8 +1,26 @@
 aid: phasev
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/phasev.png
 name: PhaseV
-description: 'PhaseV is a company surfaced as a portfolio company of accel, insight-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'PhaseV is a biopharma software company based in Cambridge, Massachusetts that builds
+  AI and machine-learning solutions for clinical-trial optimization. Its platform helps pharmaceutical
+  sponsors and CROs improve trial design, reduce enrollment and cost, shorten timelines, and increase
+  probability of success through simulation and Bayesian adaptive design (Trial Optimizer), biomarker
+  and patient-subgroup identification (Response Optimizer), disease-progression causal analysis
+  (Portfolio Optimizer), site selection and operational analytics (ClinOps Optimizer), and ML-based
+  early-derived endpoint identification. PhaseV publishes no public developer API, SDK, or documentation
+  surface; this profile captures its identity and probed domain-security posture. Backed by Accel and
+  Insight Partners.'
 url: https://raw.githubusercontent.com/api-evangelist/phasev/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
+- Clinical Trials
+- Biopharma
+- Machine Learning
+- Life Sciences
+- Healthcare
+- Drug Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/phasev-domain-security.yml
 - type: Website
   url: https://www.phasevtrials.com/
+- type: Blog
+  url: https://www.phasevtrials.com/insights/blog
+- type: PrivacyPolicy
+  url: https://www.phasevtrials.com/privacy-policy
+- type: Support
+  url: https://www.phasevtrials.com/contact
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
