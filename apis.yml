@@ -48,7 +48,7 @@ tags:
 - Artificial Intelligence
 - Clinical Trials
 - Biopharma
-- Machine-Learning
+- Machine Learning
 - Life Sciences
 - Healthcare
 - Drug Development
@@ -61,6 +61,7 @@ tags_raw:
 - Life Sciences
 - Healthcare
 - Drug Development
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
